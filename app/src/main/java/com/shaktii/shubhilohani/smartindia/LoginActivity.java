@@ -1,15 +1,14 @@
 package com.shaktii.shubhilohani.smartindia;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 public class LoginActivity extends BaseActivity {
 
     private static final String TAG = "LOGIN SCREEN";
-    String strULBName, strPassword;
 
+    String strULBName, strPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

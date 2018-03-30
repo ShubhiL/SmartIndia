@@ -6,11 +6,6 @@ import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatActivity;
 
 import com.shaktii.shubhilohani.Constants.GlobalConstants;
-import com.shaktii.shubhilohani.smartindia.BuildConfig;
-
-/**
- * Created by shubhilohani on 3/30/18.
- */
 
 
 public class ApplicationController extends Application {
@@ -18,7 +13,6 @@ public class ApplicationController extends Application {
     public static final String TAG = ApplicationController.class.getSimpleName();
 
     private static ApplicationController mInstance;
-
 
     private AppCompatActivity mCurrentActivity = null;
 
@@ -39,7 +33,6 @@ public class ApplicationController extends Application {
         mInstance = this;
 
         GlobalConstants.applicationContext = getApplicationContext();
-
 
 //        TypefaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/roboto_regular.ttf");
 //

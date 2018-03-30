@@ -1,40 +1,48 @@
 package com.shaktii.shubhilohani.smartindia;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 
-import com.shaktii.shubhilohani.Constants.SharedPreference;
+import com.shaktii.shubhilohani.Constants.CommonUtilities;
 
 public class SplashScreenActivity extends BaseActivity {
 
+    final Handler splashHandler = new Handler();
 
+    final Runnable splashRunnable = new Runnable() {
 
-    private final int SPLASH_DISPLAY_LENGTH = 2000;
-    private Intent mainintent;
+        @Override
+        public void run() {
+
+            if (CommonUtilities.checkInternetConnection()) {
+
+                if (sharedPreference.getUserID() != null && !sharedPreference.getUserID().contentEquals("")) {
+
+                    navigateHome();
+
+                } else {
+
+//                    navigateHome();
+
+                    navigateLogin();
+                }
+
+            } else {
+
+                displayMessage(currentActivity.getString(R.string.error_no_connection));
+
+                navigateLogin();
+            }
+        }
+    };
+
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
 
-                if (sharedPreference.getUserID() == null) {
+        splashHandler.postDelayed(splashRunnable, 3000);
 
-                    mainintent = new Intent(SplashScreenActivity.this,LoginActivity.class);
-                    startActivity(mainintent);
-                    SplashScreenActivity.this.finish();
-                } else {
-                    mainintent = new Intent(SplashScreenActivity.this, HomeActivity.class);
-                    SplashScreenActivity.this.startActivity(mainintent);
-                    SplashScreenActivity.this.finish();
-                }
-            }
-        }, SPLASH_DISPLAY_LENGTH);
     }
 }
