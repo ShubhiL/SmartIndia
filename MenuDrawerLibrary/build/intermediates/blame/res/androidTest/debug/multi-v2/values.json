@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shubhilohani/Desktop/Smart India Hackathon 2018/SmartIndia/MenuDrawerLibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "outputFile": "C:\\Users\\aakansha\\AndroidStudioProjects\\SmartIndia\\MenuDrawerLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "/Users/shubhilohani/Desktop/Smart India Hackathon 2018/SmartIndia/MenuDrawerLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "source": "C:\\Users\\aakansha\\AndroidStudioProjects\\SmartIndia\\MenuDrawerLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "/home/kartyk/SmartIndia/MenuDrawerLibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "outputFile": "C:\\home\\kartyk\\SmartIndia\\MenuDrawerLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "/home/kartyk/SmartIndia/MenuDrawerLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "source": "C:\\home\\kartyk\\SmartIndia\\MenuDrawerLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -37,7 +37,8 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity android:name=".SingleProjectActivity" />
-        <activity android:name=".ProjectActivity"></activity>
+        <activity android:name=".ProjectActivity" />
+        <activity android:name=".GeoTagActivity"></activity>
     </application>
 
 </manifest>
