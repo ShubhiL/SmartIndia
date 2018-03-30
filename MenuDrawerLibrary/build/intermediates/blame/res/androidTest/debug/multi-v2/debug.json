@@ -15,6 +15,22 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "/Users/shubhilohani/Desktop/Smart India Hackathon 2018/SmartIndia/MenuDrawerLibrary/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/shubhilohani/Desktop/Smart India Hackathon 2018/SmartIndia/MenuDrawerLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,1228,1278,1317,1353,1394,1434,1472,1518,1564,1634,1703,1730",
+                        "endLines": "2,3,10,11,12,13,14,15,16,17,18,19,20,26",
+                        "endColumns": "53,57,49,38,35,40,39,37,45,45,69,68,26,12",
+                        "endOffsets": "104,162,1273,1312,1348,1389,1429,1467,1513,1559,1629,1698,1725,2126"
+                    }
+                }
+            ]
         }
     ]
 }
