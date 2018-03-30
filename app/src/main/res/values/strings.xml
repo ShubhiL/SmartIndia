@@ -76,14 +76,16 @@
     </string-array>
 
     <string-array name="side_menu_title">
-        <item>About Us</item>
-        <item>Account History</item>
-        <item>Wallet</item>
-        <item>Invite Friends</item>
-        <item>Help &amp; Support</item>
-        <item>Change Password</item>
+        <item>DashBoard</item>
+        <item>Add Project</item>
         <item>Logout</item>
     </string-array>
+
+    <integer-array name="side_menu_image">
+        <item>@drawable/img_about_us</item>
+        <item>@drawable/img_account</item>
+        <item>@drawable/img_wallet</item>
+    </integer-array>
 
 
     <string name="share_1_txt">Share your unique referral code</string>
@@ -95,7 +97,6 @@
     <string name="three">3</string>
 
     <string name="txt_earn_message">You have earned</string>
-
 
     <string name="error_home_page_ad">Home Page Ad Expired</string>
     <string name="button_next">Next</string>

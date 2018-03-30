@@ -1,12 +1,15 @@
 package com.shaktii.shubhilohani.smartindia;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 
 import com.shaktii.shubhilohani.Application.ApplicationController;
 import com.shaktii.shubhilohani.Constants.GlobalConstants;
@@ -15,11 +18,9 @@ import com.shaktii.shubhilohani.Constants.SharedPreference;
 public class BaseActivity extends AppCompatActivity {
 
     public static String TAG = "BASE ACTIVITY";
-
     public SharedPreference sharedPreference;
-
     protected ApplicationController applicationController = (ApplicationController) GlobalConstants.applicationContext;
-
+    View inflatedView;
     AppCompatActivity currentActivity;
 
     View viewGroup;
@@ -33,8 +34,6 @@ public class BaseActivity extends AppCompatActivity {
         Log.d(TAG, "ON CREATE");
 
         GlobalConstants.applicationContext = getApplicationContext();
-
-        Log.d(TAG, "" + GlobalConstants.applicationContext);
 
         applicationController.setCurrentActivity(this);
 
@@ -147,5 +146,25 @@ public class BaseActivity extends AppCompatActivity {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
+    }
+
+    public void loaderInitialization() {
+
+        LayoutInflater inflater = (LayoutInflater) currentActivity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        inflatedView = inflater.inflate(R.layout.loader_design, null);
+
+        this.addContentView(inflatedView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+
+        inflatedView.setVisibility(View.GONE);
+    }
+
+    public void hideKeyboard() {
+
+        View view = currentActivity.getCurrentFocus();
+
+        if (view != null) {
+            ((InputMethodManager) currentActivity.getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        }
     }
 }
