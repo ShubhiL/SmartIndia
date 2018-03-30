@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--100% — FF-->
+    <!--95% — F2-->
+    <!--90% — E6-->
+    <!--85% — D9-->
+    <!--80% — CC-->
+    <!--75% — BF-->
+    <!--70% — B3-->
+    <!--65% — A6-->
+    <!--60% — 99-->
+    <!--55% — 8C-->
+    <!--50% — 80-->
+    <!--45% — 73-->
+    <!--40% — 66-->
+    <!--35% — 59-->
+    <!--30% — 4D-->
+    <!--25% — 40-->
+    <!--20% — 33-->
+    <!--15% — 26-->
+    <!--10% — 1A-->
+    <!--5% — 0D-->
+    <!--0% — 00-->
+
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black_transparent_20">#33000000</color>
+    <color name="black_transparent_25">#40000000</color>
+    <color name="black_transparent_50">#80000000</color>
+    <color name="black_transparent_60">#99000000</color>
+    <color name="black_transparent_80">#CC000000</color>
+
+    <color name="white_transparent_20">#33FFFFFF</color>
+    <color name="white_transparent_25">#40FFFFFF</color>
+    <color name="white_transparent_50">#80FFFFFF</color>
+    <color name="white_transparent_60">#99FFFFFF</color>
+    <color name="white_transparent_80">#CCFFFFFF</color>
+
+    <color name="green">#03C9A9</color>
+    <color name="grey">#5D5C5C</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="blue">#1A75FF</color>
+    <color name="recharge_blue">#00AEEF</color>
+    <color name="sandal">#E6CCB3</color>
+    <color name="red">#FF002A</color>
+    <color name="orange">#FFFF8800</color>
+
+    <color name="progress_background">#B2B2B2</color>
+    <color name="progress">#1BBC9B</color>
+
+
+    <color name="tab_video">#EC1F1F</color>
+    <color name="tab_poster">#FF17780D</color>
+    <color name="tab_download">#8803C0</color>
+    <color name="tab_link">#FFF7911D</color>
+    <color name="tab_audio">#FF0FCAEF</color>
+
+
+
+    <color name="success">#03C9A9</color>
+    <color name="failure">#FF002A</color>
+    <color name="pending">#FDD534</color>
+
+    <color name="recharge">#00AEEF</color>
+    <color name="recharge_bar">#E6E6E6</color>
+    <color name="recharge_checkbox">#06C5AC</color>
+
+    <color name="video_ads">#E1040A</color>
+    <color name="poster_ads">#009E4F</color>
+    <color name="download_ads">#8803C0</color>
+    <color name="link_ads">#F3782F</color>
+    <color name="audio_ads">#1A90D0</color>
+    <color name="home_ads">#87338B</color>
+    <color name="bg_ads">#030B9F</color>
+    <color name="referral">#C600FF</color>
+    <color name="account_history">#030B9F</color>
+    <color name="recharge_history">#F66107</color>
+    <color name="share">#C600FF</color>
+    <color name="logout">#E1040A</color>
+    <color name="wallet">#108BE3</color>
+    <color name="support">#333333</color>
+    <color name="change_password">#4DAB0A</color>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#80CBC4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="float_icon">#8E44AD</color>
+
+    <color name="wallet_bg">#000000</color>
+
+    <color name="red_button_color">#ED4930</color>
+    <color name="green_button_color">#218835</color>
+    <color name="edit_text_bg">#B3FCF4B6</color>
+
+    <color name="ok_button">#fdd534</color>
+
+
+    <color name="light_grey">#B2B1B2</color>
+    <!--<color name="blue">#1E8BCC</color>-->
+    <color name="wallet_blue">#48A8F1</color>
+    <color name="purple">#843186</color>
+
+    <color name="yellow">#fdd534</color>
+
+    <color name="menu_bg_color">#F8F8F8</color>
+    <color name="green_rate_button">#1C9935</color>
+    <color name="orange_rate_button">#fa5008</color>
+    <color name="red_ring">#FF002A</color>
+
+
+
+    <color name="txt_author">#030B9F</color>
+    <color name="txt_title">#1067EC</color>
+    <color name="txt_duration">#E70505</color>
+
+
+    <color name="tab_dark_blue">#FF5C2BEF</color>
+
+
+    <color name="white_transparent">#8CFFFFFF</color>
+
+    <color name="edit_profile_text">#6A93BA</color>
+    <color name="coffee_color">#79360C</color>
+    <color name="rate_app_text">#0E539B</color>
+    <color name="rate_app_underline">#7588B4</color>
+
+    <color name="view_more">#BF696969</color>
+    <color name="add_heading">#BFec1f1f</color>
+    <color name="poster_heading">#BF208835</color>
+    <color name="video_heading">#BF1e8bcc</color>
+    <color name="radio_heading">#BF0e539b</color>
+    <color name="apps_heading">#D91e8bcc</color>
+    <color name="link_heading">#D9f6891b</color>
+    <color name="starFullySelected">#FF0FCAEF</color>
+    <color name="starPartiallySelected">#0E539B</color>
+    <color name="starNotSelected">#FFFFFF</color>
+    <color name="title_txt">#030B9F</color>
+    <color name="home_page">#EC1F1F</color>
+    <color name="main_page">#0E539B</color>
+
+
+    <color name="Smooch_accent">#9200aa</color>
+    <color name="Smooch_accentDark">#76008a</color>
+    <color name="Smooch_accentLight">#be7cca</color>
+
+    <color name="Smooch_backgroundInput">#ffffff</color>
+
+    <color name="Smooch_btnSendHollow">#c0c0c0</color>
+    <color name="Smooch_btnSendHollowBorder">#303030</color>
+
+    <color name="Smooch_header">#989898</color>
+
+    <color name="Smooch_messageDate">@color/Smooch_header</color>
+    <color name="Smooch_messageShadow">#7f999999</color>
+
+    <color name="Smooch_remoteMessageAuthor">@color/Smooch_header</color>
+    <color name="Smooch_remoteMessageBackground">#ffffff</color>
+    <color name="Smooch_remoteMessageBorder">#d9d9d9</color>
+    <color name="Smooch_remoteMessageText">#000000</color>
+
+    <color name="Smooch_userMessageBackground">@color/Smooch_accent</color>
+    <color name="Smooch_userMessageBorder">@color/Smooch_accentDark</color>
+    <color name="Smooch_userMessageFailedBackground">@color/Smooch_accentLight</color>
+    <color name="Smooch_userMessageText">#ffffff</color>
+
+
+
+    <color name="wallet_green">#03C9A9</color>
+    <color name="contact_green">#00B878</color>
+
+    <color name="tab_select">#FF002A</color>
+    <color name="gray_bg">#EBEBEB</color>
+    <color name="violet">#03095c</color>
+
+    <color name="LightBlue"> #7BABED</color>
+    <color name="LightGrey"> #CED6E3</color>
+    <color name="DarkGrey"> #6E7780</color>
+    <color name="LightYellow"> #FCEBBF</color>
+    <color name="DarkYellow"> #FDE186</color>
+    <color name="Orange"> #F0BA3C</color>
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="LightPink"> #F6C2D8</color>
+    <color name="DarkPink"> #F07C91</color>
+
+</resources>
+

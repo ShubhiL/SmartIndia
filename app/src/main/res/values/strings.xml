@@ -1,0 +1,252 @@
+<resources>
+
+    <string name="app_name">Pragati Project Tracker</string>
+
+    <string name="rupee">\u20B9</string>
+    <string name="tick">\u2713</string>
+
+    <string name="sash_cash_url">http://20.0.0.44:4003/api/v1/android/</string>
+    <string name="campaign_image_url">http://20.0.0.44:8001/</string>
+    <string name="profile_image_url">http://20.0.0.44:4003/</string>
+    <string name="shopping_url">http://20.0.0.44:7001/api/v1/</string>
+    <string name="shopping_image_url">http://20.0.0.44:7001/</string>
+
+    <string name="error_network_timeout">Something went wrong!</string>
+    <string name="error_no_connection">Check Internet Connection</string>
+
+    <string name="hint_email_mobile">Email ID / Mobile Number</string>
+    <string name="hint_email">Email ID</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_referral_code">Referral Code (Optional)</string>
+    <string name="hint_referral">Referral Code</string>
+    <string name="hint_enter_otp">Enter OTP</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_state">Select State</string>
+    <string name="hint_district">Select District</string>
+    <string name="hint_town">Select Town</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_profession">Select Profession</string>
+
+    <string name="button_recover">Recover</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_change_password">Change Password</string>
+    <string name="button_reset_password">Reset Password</string>
+    <string name="button_create_account">Create an Account</string>
+    <string name="button_verify">Verify</string>
+    <string name="button_create_profile">Create Profile</string>
+    <string name="button_update_profile">Update Profile</string>
+
+    <string name="link_resend_otp">Resend OTP</string>
+    <string name="link_back">\u276E Back</string>
+    <string name="link_back_login">\u276E Login</string>
+    <string name="link_sign_up">Sign up \u276F </string>
+    <string name="link_terms_conditions">Terms &amp; conditions</string>
+    <string name="link_have_account">I already have an account!</string>
+    <string name="link_forgot_password">Forgot Password</string>
+
+    <string name="title_change_your_password">Change Your Password</string>
+    <string name="title_reset_your_password">Reset Your Password</string>
+    <string name="title_update_your_profile">Update your Profile</string>
+    <string name="title_create_your_profile">Create your Profile</string>
+    <string name="title_enter_email">Enter your Email</string>
+    <string name="title_otp_verify">OTP Verification</string>
+    <string name="title_gender">Gender</string>
+    <string name="title_marital">Marital Status</string>
+    <string name="title_currnt_location">Current Location: </string>
+
+    <string name="option_single">Single</string>
+    <string name="option_married">Married</string>
+    <string name="option_male">Male</string>
+    <string name="option_female">Female</string>
+
+    <string-array name="menu_title">
+        <item>All in One</item>
+        <item>Offers</item>
+        <item>Recharge</item>
+        <item>Radio</item>
+        <item>News</item>
+        <item>Earn Money</item>
+    </string-array>
+
+    <string-array name="side_menu_title">
+        <item>About Us</item>
+        <item>Account History</item>
+        <item>Wallet</item>
+        <item>Invite Friends</item>
+        <item>Help &amp; Support</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+
+
+    <string name="share_1_txt">Share your unique referral code</string>
+    <string name="share_2_txt">Earn money for each friend you invite! and Sign Up</string>
+    <string name="share">Share and Earn</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+    <string name="txt_earn_message">You have earned</string>
+
+
+    <string name="error_home_page_ad">Home Page Ad Expired</string>
+    <string name="button_next">Next</string>
+    <string name="button_previous">Previous</string>
+    <string name="button_skip">Skip</string>
+    <string name="button_home">Home</string>
+
+
+    <string name="sign_using">Sign in using</string>
+
+    <string name="reset_password">Don\'t worry ! Just fill in your Email Address and we\'ll help you to reset your password</string>
+
+    <string name="server_client_id">400967775865-9ol5vg8ha1vhdv1pq4i5no1bikv1ta75.apps.googleusercontent.com</string>
+
+    <string name="internet">No Network Access</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="sash_cash">Sash.Cash</string>
+
+    <string name="facebook_app_id">1772648066328104</string>
+    <string name="fb_login_protocol_scheme">fb1772648066328104</string>
+
+
+    <!--<string name="error_network_timeout">Low Internet Connection</string>-->
+    <string name="error_auth">Authentication Error</string>
+
+    <string name="error_server">Server not responding</string>
+    <string name="feedback_success">Thank you for your feedback</string>
+    <string name="feedback_request_failure">Please try later</string>
+    <string name="rating_success">Thank you for your rating</string>
+
+    <string name="emailId">Email</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="account_history">Account History</string>
+    <string name="wallet">Wallet</string>
+    <string name="recharge">History of Recharge</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="how_it_work">How it works</string>
+
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+
+
+    <string name="video">VIDEO ADS</string>
+    <string name="poster">VIEW POSTER</string>
+    <string name="download_apps">DOWNLOAD APPS</string>
+    <string name="links">OPEN LINKS</string>
+    <string name="audio">RADIO</string>
+
+    <string name="rate"><u>Rate for Sash.Cash</u></string>
+    <string name="recharge_history">Recharge History</string>
+    <string name="referral_history">Referral History</string>
+    <string name="referral_amount">Referral Amount</string>
+    <string name="loading">Loading…</string>
+
+    <string name="it">IT</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="doctor">Doctor</string>
+    <string name="others">Others</string>
+    <string name="business">Business</string>
+    <string name="student">Student</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="status">Status:</string>
+    <string name="history">History</string>
+    <string name="history_of_recharge">History of Recharge</string>
+
+    <string name="rate_app_text"><u>Rate Our App</u></string>
+    <string name="company_name_text"><u>Sash Digital Advertisements Private Ltd.</u></string>
+    <string name="registered_office_text"><u>Registered Office</u></string>
+    <string name="client_email">support@sash.cash</string>
+    <string name="client_address">NO 1, Indira Towers, Vivekanandar Street, G.S.T Road, Irumbuliyur, West Tambaram, Chennai-600045.</string>
+
+    <string name="account_history_name_item_one">Number of Video Ads Viewed</string>
+    <string name="account_history_name_item_two">Number of Posters Viewed"</string>
+    <string name="account_history_name_item_three">Number of Apps Downloaded</string>
+    <string name="account_history_name_item_four">Number of Links Opened</string>
+    <string name="account_history_name_item_five">Number of Audio Viewed</string>
+    <string name="account_history_name_item_six">Number of MainPage Ads Viewed</string>
+    <string name="account_history_name_item_seven">Number of Homepage Ads Viewed</string>
+
+    <string name="recharge_note">Your recharge is done you will get confirmation message from your operator shortly. If you need any further assistance please contact us <a href="mailto:support@sash.cash?Subject=Recharge%20Issue" target="_top">support@sash.cash</a></string>
+
+    <string name="transfer_note">If you need any further assistance please contact us <a href="mailto:support@sash.cash?Subject=Recharge%20Issue" target="_top">support@sash.cash</a></string>
+
+
+    <string name="rate_now">Rate Now</string>
+    <string name="rate_later">Later</string>
+    <string name="rate_txt">If you love our app, please take a moment to rate it</string>
+    <string name="submit_now">Submit</string>
+    <string name="submit_later">Cancel</string>
+    <string name="skip_btn">Skip</string>
+    <string name="web_link"><a href="http://sash.cash">https://sash.cash/</a></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Smooch_activityConversation">Sash.Cash</string>
+    <string name="Smooch_startOfConversation">This is the start of your conversation with the team.</string>
+    <string name="Smooch_welcome">Feel free to leave us a message about anything that\'s on your mind.</string>
+    <string name="Smooch_messageHint">Type a message…</string>
+
+    <!--wallet string values-->
+    <string name="wallet_str">Wallet</string>
+    <string name="wallet_balance">Balance</string>
+    <string name="wallet_mobile">Mobile</string>
+    <string name="wallet_dth">DTH</string>
+    <string name="wallet_transfer">Transfer</string>
+    <string name="wallet_mobile_no">Mobile No</string>
+    <string name="wallet_dth_no">DTH No</string>
+    <string name="wallet_operator">Operator</string>
+    <string name="wallet_recharge_type">Recharge Type</string>
+    <string name="wallet_amount">Amount</string>
+    <string name="wallet_recharge">Recharge</string>
+    <string name="wallet_email">Email ID</string>
+    <string name="wallet_email_phone">Email / Mobile Number</string>
+
+
+    <string name="mail_us">Mail us</string>
+    <string name="drop_query">Drop your query</string>
+    <string name="rate_us">Feedback</string>
+    <string name="support">Support</string>
+
+    <string name="count">Count</string>
+    <string name="total_earn">Total Earned</string>
+    <string name="ad_name">Ad Name</string>
+    <string name="duration">Duration</string>
+    <string name="earned">Earned (\u20B9)</string>
+
+
+    <string name="welcome_txt">Welcome to Sash.Cash</string>
+    <string name="welcome_first_txt">In order to give you free recharge, we need to have permission to access the following information on your device.</string>
+    <string name="welcome_email">1. Your Email</string>
+    <string name="welcome_gps">2. Your GPS</string>
+    <string name="welcome_msg">3. Your Message</string>
+    <string name="welcome_contact">4. Your Contact List</string>
+    <string name="welcome_storage">5. Your Storage</string>
+    <string name="welcome_third_txt">We value your privacy! we will never sell or misuse your personal information</string>
+    <string name="getstart">Get Started</string>
+
+    <string name="about_us">
+        <p align="justify">\n\t Sash.Cash-A Pocket Money App, A digital media platform to push advertisements at effective cost from the other medium. We resolve the pain of the advertiser by providing accuracy, reach and certainty and create an opportunity for the brand to post ad for massive reach with efficiency.\n\n\t Sash.Cash positions itself as a market leader in the ecosystem of advertising platform, acting as a bridge to bind both the user and the brand. We reward the user for viewing each ad and enable them to avail recharge and transfer money from the user wallet.\n\n\t Sash.Cash a very ambitious company has two key mantras for its successful functioning. We have created a new revolution in the field of advertisement whereby we diversify ourselves into the panoramic categories like video ads, audio ads, poster ads, open link facilities divulging from the traditional ways of advertising.\n\n\t Being a single podium for all kind of advertisements and making the users earn, Sash.Cash stands unique and makes difference from the traditional ways of advertising.</p>
+    </string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>
