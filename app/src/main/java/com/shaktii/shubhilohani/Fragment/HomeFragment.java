@@ -2,13 +2,20 @@ package com.shaktii.shubhilohani.Fragment;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
+import com.shaktii.shubhilohani.Adapter.ProjectListAdapter;
+import com.shaktii.shubhilohani.Pojo.Project;
 import com.shaktii.shubhilohani.smartindia.HomeActivity;
 import com.shaktii.shubhilohani.smartindia.R;
+
+import java.util.ArrayList;
 
 public class HomeFragment extends BaseFragment {
 
@@ -20,7 +27,17 @@ public class HomeFragment extends BaseFragment {
 
     HomeActivity homeActivity;
 
+    LinearLayout linearParent;
+
+    RecyclerView recyclerView;
+
+    ProjectListAdapter projectListAdapter;
+
+    LinearLayoutManager linearLayoutManager;
+
     String value;
+
+    ArrayList<Project> projectArrayList;
 
     public HomeFragment() {
 
@@ -63,7 +80,52 @@ public class HomeFragment extends BaseFragment {
 
         view = inflater.inflate(R.layout.fragment_home, container, false);
 
+        viewInitialization();
+
         return view;
+    }
+
+    private void viewInitialization() {
+
+        linearParent = (LinearLayout) view.findViewById(R.id.linear_parent);
+
+        recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
+
+        setValues();
+    }
+
+    private void setValues() {
+
+        loadArrayList();
+    }
+
+    private void loadArrayList() {
+
+        projectArrayList = new ArrayList<Project>();
+
+        for (int i = 0; i < 6; i++) {
+
+            Project project = new Project();
+
+            projectArrayList.add(project);
+        }
+
+        loadMenuList();
+    }
+
+    private void loadMenuList() {
+
+        linearLayoutManager = new LinearLayoutManager(homeActivity);
+
+        projectListAdapter = new ProjectListAdapter(projectArrayList);
+
+        recyclerView.setHasFixedSize(true);
+
+        recyclerView.setAdapter(projectListAdapter);
+
+        recyclerView.setLayoutManager(linearLayoutManager);
+
+        linearLayoutManager.scrollToPosition(0);
     }
 
     @Override

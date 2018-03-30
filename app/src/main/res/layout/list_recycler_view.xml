@@ -1,120 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_margin="@dimen/value_5dp"
+    android:theme="@style/EditTheme"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/value_2dp"
+    app:cardElevation="@dimen/value_4dp"
+    app:cardUseCompatPadding="false">
 
-    <android.support.v7.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        card_view:cardCornerRadius="2dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/value_5dp">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center|left"
+                android:text="Project Code  : "
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_projectCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center|left"
+                android:hint="P-6789" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginTop="@dimen/value_5dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Project Code  : "
-                    android:textAllCaps="true"
-                    android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/tv_projectCode"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="19dp"
-                    android:hint="P-6789"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginTop="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Project Name : "
-                    android:textAllCaps="true"
-                    android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/tv_projectName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="17dp"
-                    android:hint="PROJECT ABCD"/>
-            </LinearLayout>
-
-            <ProgressBar
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:progress="25"
-                android:theme="@style/HorizontalProgressBar" />
+                android:layout_weight="0.4"
+                android:gravity="center|left"
+                android:text="Project Name : "
+                android:textAllCaps="true"
+                android:textStyle="bold" />
 
-            <LinearLayout
-                android:layout_marginTop="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Current Phase : "
-                    android:textAllCaps="true"
-                    android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/tv_current_phase"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="17dp"
-                    android:hint="3"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginTop="12dp"
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/tv_projectName"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Start : "
-                    android:textAllCaps="true"
-                    android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/tv_start_date"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="17dp"
-                    android:hint="14/03/18"/>
+                android:layout_weight="0.6"
+                android:gravity="center|left"
+                android:hint="PROJECT ABCD" />
+        </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="End : "
-                    android:textAllCaps="true"
-                    android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/tv_end_date"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="17dp"
-                    android:hint="30/12/18"/>
+        <ProgressBar
+            android:id="@+id/project_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:max="100"
+            android:progress="45" />
 
-            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value_5dp">
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center|left"
+                android:text="Current Phase : "
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_current_phase"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center|left"
+                android:hint="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value_5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center|left"
+                android:text="Start : "
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_start_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center|left"
+                android:hint="14/03/18" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center|left"
+                android:text="End : "
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_end_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center|left"
+                android:hint="30/12/18" />
 
         </LinearLayout>
 
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
 
 
-
-    </android.support.v7.widget.CardView>
-</LinearLayout>

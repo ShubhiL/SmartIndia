@@ -11,10 +11,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by shubhilohani on 3/30/18.
- */
-
 public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.TestViewHolder>  {
 
     Context context;
@@ -70,7 +66,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Test
             super(view);
             tv_projectCode = (TextView) view.findViewById(R.id.tv_projectCode);
             tv_projectName = (TextView) view.findViewById(R.id.tv_projectName);
-            cardView = view.findViewById(R.id.card_view);
+//            cardView = view.findViewById(R.id.card_view);
 
         }
 

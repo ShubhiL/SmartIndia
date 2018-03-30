@@ -45,7 +45,7 @@
     </style>
 
     <style name="HorizontalProgressBar" parent="android:Widget.ProgressBar.Horizontal">
-        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateOnly">true</item>
         <item name="android:progressDrawable">@drawable/progress_bar_horizontal</item>
         <item name="android:minHeight">@dimen/value_5dp</item>
         <item name="android:maxHeight">@dimen/value_10dp</item>
