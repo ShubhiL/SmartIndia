@@ -1,2 +1,1 @@
-# SmartIndia
 # Pragati Project Tracker
